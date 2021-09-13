@@ -22,6 +22,9 @@ cargo build --release
 
 You can then move the program built in `target/release` to the `bin` files or add the path to the `PATH` environmental variable.
 
+### nix-shell
+Alternatively this repo comes with a `shell.nix` file for the usage with `nix-shell`. This allowes for automatic installation of the required build tools.
+
 ## How to use
 
 command: `rust-passphrase generate [OPTIONS]`
