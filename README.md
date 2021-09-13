@@ -8,11 +8,17 @@ It uses the _ChaCha20Rng_ rng for safe random numbers and the bitcoin memonic wo
 If you want to build `rust-passphrase` by yourself you need `rustc` and `cargo` installed.
 
 Clone into the repository
-`git clone git@github.com:nepet/rust-passphrase.git`
-`cd rust-passphrase`
+```
+git clone git@github.com:nepet/rust-passphrase.git
+```
+```
+cd rust-passphrase
+```
 
 and build the program with cargo:
-`cargo build --release`
+```
+cargo build --release
+```
 
 You can then move the program built in `target/release` to the `bin` files or add the path to the `PATH` environmental variable.
 
