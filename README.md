@@ -30,7 +30,7 @@ command: `rust-passphrase generate [OPTIONS]`
 |-|-|-|
 |--num-words|-n|number of words used for passphrase _(default: 3)_|
 |--separator|-s|space separated list of separators to choose from _(default: "-")_|
-|--num_trailing_numbers|-n|number of trailing numbers appended to the passphrase _(default: 3)_|
+|--num_trailing_numbers|-n|number of trailing numbers appended to the passphrase _(default: 0)_|
 
 
 ### Todo
