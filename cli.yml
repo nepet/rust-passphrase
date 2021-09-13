@@ -20,9 +20,15 @@ subcommands:
             # multiple_values: true
             takes_value: true
         - num_trailing_numbers:
-            long: num_trailing_numbers
+            long: num-trailing-numbers
             short: t
             help: number of trailing numbers appended to the passphrase
+            # multiple_values: true
+            takes_value: true
+        - num_passphrases:
+            long: num-passphrases
+            short: p
+            help: number of passphrases to generate
             # multiple_values: true
             takes_value: true
             
