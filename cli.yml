@@ -1,0 +1,28 @@
+name: XKCD style password generator
+version: 0.1.0
+author: Peter Neuroth <pet.v.ne@gmail.com>
+
+subcommands:
+
+  - generate:
+      about: generates a new passphrase
+      version: "0.1.0"
+      args:
+        - num_words:
+            long: num-words
+            short: n
+            help: number of words used for passphrase
+            takes_value: true
+        - separator:
+            long: separator
+            short: s
+            help: space separated list of separators to choose from, defaults to "-"
+            # multiple_values: true
+            takes_value: true
+        - num_trailing_numbers:
+            long: num_trailing_numbers
+            short: t
+            help: number of trailing numbers appended to the passphrase
+            # multiple_values: true
+            takes_value: true
+            
