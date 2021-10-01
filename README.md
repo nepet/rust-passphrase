@@ -2,7 +2,7 @@
 
 This is a simplistic passphrase generator inspired by [xkcd](https://xkcd.com/936/) and [hsxkpasswd](https://github.com/bbusschots/hsxkpasswd).
 
-It uses the _ChaCha20Rng_ rng for safe random numbers and the bitcoin memonic word list in english from [bip-0039](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md).
+It uses the _ChaCha20Rng_ rng for safe random numbers and the bitcoin mnemonic word list in english from [bip-0039](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md).
 
 ## Install
 If you want to build `rust-passphrase` by yourself you need `rustc` and `cargo` installed.
